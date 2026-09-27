@@ -13,12 +13,12 @@ Tools Used
 
 Customer Order Analysis
 1. Used the Online Retail Dataset containing 541,909 records.
-2. Kept the original dataset unchanged in the Raw Data sheet.
-3. Created a PivotTable using CustomerID and InvoiceNo.
-4. Used Distinct Count of InvoiceNo to avoid counting multiple product lines from the same order as separate orders.
-5. Excluded blank CustomerID values from the customer-level analysis.
-6. Sorted customers by Order Count to identify frequent buyers.
-7. Recorded the top five customers based on their order counts.
+2. Created a PivotTable using CustomerID and InvoiceNo.
+3. Used Distinct Count of InvoiceNo to avoid counting multiple product lines from the same order as separate orders.
+4. Excluded blank CustomerID values from the customer-level analysis.
+5. Sorted customers by Order Count to identify frequent buyers.
+6. Recorded the top five customers based on their order counts.
+7. The GitHub submission workbook contains the PivotTable and Customer Order Count sheets. The full raw dataset was not included in the GitHub workbook due to its large file size.
 
 Top Customers
 1. Customer ID 14911 – 248 orders
@@ -28,7 +28,8 @@ Top Customers
 5. Customer ID 15311 – 118 orders
 
 Files
-1. Task 20.xlsx - Excel workbook containing Raw Data, PivotTable, and Customer Order Count sheets
-2. README.md - Summary of the customer order analysis
+1. Task 20.xlsx - Excel workbook containing the PivotTable and Customer Order Count analysis
+2. README.md` - Summary of the customer order analysis
 
-Conclusion - Customer order frequency was successfully analyzed using distinct InvoiceNo counts for each CustomerID. The analysis identified the top five frequent buyers while avoiding duplicate order-line counting.
+Conclusion
+Customer order frequency was successfully analyzed using distinct InvoiceNo counts for each CustomerID. The analysis identified the top five frequent buyers while avoiding duplicate order-line counting. The GitHub submission contains the relevant analysis sheets while the full raw dataset was excluded because of its large file size.
